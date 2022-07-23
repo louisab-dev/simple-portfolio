@@ -1,6 +1,6 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
-import ProjectItem from "./ProjectItem";
+import SectionTitle from "../SectionTitle";
+import ProjectItem from "../items/ProjectItem";
 
 function Projects() {
   return (

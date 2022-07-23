@@ -1,9 +1,9 @@
 import React from "react";
-import Experiences from "./components/Experiences";
-import HeroSection from "./components/HeroSection";
+import Experiences from "./components/sections/Experiences";
+import HeroSection from "./components/sections/HeroSection";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Projects from "./components/sections/Projects";
+import Skills from "./components/sections/Skills";
 
 function App() {
   return (

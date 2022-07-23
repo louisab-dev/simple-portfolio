@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 
 function ThemeButton() {
   const [theme, setTheme] = useState(null);
@@ -24,13 +25,13 @@ function ThemeButton() {
   };
 
   return (
-    <div className="bg-indigo-500">
+    <div className="mx-5 my-5 md:my-0">
       <button
         type="button"
         onClick={handleThemeChange}
-        className="bg-indigo-700 text-lg p-1 rounded-md h-10 w-10"
+        className="bg-indigo-700 h-10 w-10 rounded-md"
       >
-        {theme === "dark" ? "🌙" : "🌞"}
+              <div className={`text-2xl mx-2 text-white`}>{theme === "dark" ? <BsFillSunFill /> : <BsFillMoonFill />}</div>
       </button>
     </div>
   );
