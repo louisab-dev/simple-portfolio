@@ -2,7 +2,7 @@ import React from "react";
 
 function ExperienceItem({ thumbnail, title, keywords, link }) {
   return (
-    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-2 transform transition">
+    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-2 transform transition mx-5">
       <a href={link}>
         <img
           src={thumbnail}
