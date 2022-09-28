@@ -1,22 +1,41 @@
 import React from "react";
 import SectionTitle from "../SectionTitle";
 import SkillItem from "../items/SkillItem";
-import skillsList from "../../data/skills";
+import { useTranslation } from "react-i18next";
+import { DiReact } from "react-icons/di";
+import { AiFillApple } from "react-icons/ai";
+import { FaNodeJs } from "react-icons/fa";
+
+import Carousel from "../Carousel";
 
 function Skills() {
+  const { t } = useTranslation();
+
+  const SkillList = [
+    <SkillItem
+      title={t("skills.frontend_dev.title")}
+      icon={<DiReact />}
+      description={t("skills.frontend_dev.description")}
+      key={t("skills.frontend_dev.title")}
+    />,
+    <SkillItem
+      title={t("skills.backend_dev.title")}
+      icon={<FaNodeJs />}
+      description={t("skills.backend_dev.description")}
+      key={t("skills.backend_dev.title")}
+    />,
+    <SkillItem
+      title={t("skills.mobile_dev.title")}
+      icon={<AiFillApple />}
+      description={t("skills.mobile_dev.description")}
+      key={t("skills.mobile_dev.title")}
+    />,
+  ];
+
   return (
     <div className="py-12">
-      <SectionTitle>Skills</SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {skillsList.map((skills) => (
-          <SkillItem
-            key={skills.title}
-            title={skills.title}
-            icon={skills.icon}
-            description={skills.description}
-          />
-        ))}
-      </div>
+      <SectionTitle>{t("skills.title")}</SectionTitle>
+      <Carousel>{SkillList}</Carousel>
     </div>
   );
 }
