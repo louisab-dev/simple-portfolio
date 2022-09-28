@@ -2,5 +2,17 @@
   "hero": {
     "title": "Bonjour je m'appelle Louis",
     "subtitle": "Je suis étudiant en école d'ingénieur"
+  },
+  "skills": {
+    "skillList[0]": {
+      "description": "Je suis étudiant en informatique à l'Université des Sciences Appliquées de Salzbourg. \nJe suis actuellement étudiant en génie logiciel et je suis à la recherche d'un emploi en tant que développeur web."
+    }
+  },
+  "about": {
+    "description": "Je suis un étudiant français de 21 ans, actuellement étudiant à l'ENSEEIHT de Toulouse. \nJe suis passionné par la programmation et je suis toujours à la recherche de nouveaux défis. \nJe travaille actuellement sur quelques projets, comme des applications web pour approfondir mes connaissances en développement web car j'ai l'intention de travailler dans ce domaine.",
+    "title": "À propos de moi"
+  },
+  "projects": {
+    "title": "Projets"
   }
 }

@@ -2,5 +2,17 @@
   "hero": {
     "title": "Holà me llamo Louis",
     "subtitle": "Soy un estudiante de Ingeniería en Computación"
+  },
+  "skills": {
+    "skillList[0]": {
+      "description": "Me gusta trabajar en desarrollo web para crear sitios web y aplicaciones web utilizando tecnologías como React, Vue, Node, Express, MongoDB pero también AWS, Docker, Terraform, etc."
+    }
+  },
+  "about": {
+    "description": "Soy un estudiante francés de 21 años que actualmente estudia en ENSEEIHT en Toulouse. \nSoy un apasionado de la programación y siempre estoy buscando nuevos retos. \nActualmente estoy trabajando en algunos proyectos, como aplicaciones web para profundizar mi conocimiento del desarrollo web, ya que tengo la intención de trabajar en este campo.",
+    "title": "Sobre mí"
+  },
+  "projects": {
+    "title": "Proyectos"
   }
 }

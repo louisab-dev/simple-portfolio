@@ -2,5 +2,30 @@
   "hero": {
     "title": "Hello my name is Louis",
     "subtitle": "I'm an engineering student"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a 21 year old student from France, currently studying at ENSEEIHT in Toulouse. I'm passionate about programming and I'm always looking for new challenges. I'm currently working on a few projects, like web applications to deepen my knowledge of web development as I intend to work in this field."
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend_dev": {
+      "title": "Frontend Development",
+      "description": "I like to work on web development to build websites and web applications using technologies like React, Vue, Node, Express, MongoDB but also AWS, Docker, Terraform etc."
+    },
+    "mobile_dev": {
+      "title": "iOS Development",
+      "description": "I like to work on mobile development to build mobile applications using Swift and SwiftUI."
+    },
+    "backend_dev": {
+      "title": "Backend Development",
+      "description": "I like to work on backend development to build APIs using technologies like Node, Express, MongoDB but also bigger tools like AWS, Docker, Terraform etc."
+    }
+  },
+  "experiences": {
+    "title": "Experience"
+  },
+  "projects": {
+    "title": "Projects"
   }
 }
