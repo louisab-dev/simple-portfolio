@@ -25,12 +25,12 @@ function HeroSection() {
           <div className="pt-3">
             <a href="https://www.linkedin.com/in/louis-amoros-bessede/">
               {
-                <AiFillLinkedin className="inline-block text-white text-2xl md:text-3xl mx-2" />
+                <AiFillLinkedin className="inline-block dark:text-white text-indigo-600 text-2xl md:text-3xl mx-2" />
               }
             </a>
             <a href="https://github.com/iamlouislab">
               {
-                <AiFillGithub className="inline-block text-white text-2xl md:text-3xl mx-2" />
+                <AiFillGithub className="inline-block dark:text-white text-indigo-600 text-2xl md:text-3xl mx-2" />
               }
             </a>
           </div>

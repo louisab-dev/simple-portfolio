@@ -13,19 +13,19 @@ function ThemeButton() {
       index++;
       index = index % countryList.length;
     }
-      i18next.changeLanguage(countryList[index]);
-      console.log(countryList[index]);
+    i18next.changeLanguage(countryList[index]);
+    console.log(countryList[index]);
   };
 
   return (
-    <div className="mx-5">
+    <div>
       <button
         type="button"
         onClick={nextLangage}
         className="bg-indigo-700 h-10 w-10 rounded-md"
       >
         <div className={`text-2xl mx-2 text-white`}>
-            <FaLanguage />
+          <FaLanguage />
         </div>
       </button>
     </div>

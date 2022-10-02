@@ -25,13 +25,15 @@ function ThemeButton() {
   };
 
   return (
-    <div className="mx-5 my-5 md:my-0">
+    <div>
       <button
         type="button"
         onClick={handleThemeChange}
         className="bg-indigo-700 h-10 w-10 rounded-md"
       >
-              <div className={`text-2xl mx-2 text-white`}>{theme === "dark" ? <BsFillSunFill /> : <BsFillMoonFill />}</div>
+        <div className={`text-2xl mx-2 text-white`}>
+          {theme === "dark" ? <BsFillSunFill /> : <BsFillMoonFill />}
+        </div>
       </button>
     </div>
   );
