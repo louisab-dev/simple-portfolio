@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 function HeroSection() {
   const { t } = useTranslation();
@@ -21,6 +22,18 @@ function HeroSection() {
           >
             Contact me !
           </a>
+          <div className="pt-3">
+            <a href="https://www.linkedin.com/in/louis-amoros-bessede/">
+              {
+                <AiFillLinkedin className="inline-block text-white text-2xl md:text-3xl mx-2" />
+              }
+            </a>
+            <a href="https://github.com/iamlouislab">
+              {
+                <AiFillGithub className="inline-block text-white text-2xl md:text-3xl mx-2" />
+              }
+            </a>
+          </div>
         </div>
       </div>
     </div>
