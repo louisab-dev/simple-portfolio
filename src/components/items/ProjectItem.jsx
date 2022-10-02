@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectItem({ imgUrl, title, tech, link }) {
   return (
-    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-2 transform transition mt-5 mx-5">
+    <div className="bg-slate-300 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 rounded-lg overflow-hidden hover:-translate-y-2 transform transition mt-5 mx-5">
       <a href={link}>
         <img
           src={imgUrl}
