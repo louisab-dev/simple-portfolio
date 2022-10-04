@@ -9,13 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.3.5",
+    "@react-three/drei": "^9.32.11",
+    "@react-three/fiber": "^8.8.9",
     "i18next": "^21.8.14",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.6.4",
     "react-dom": "^18.2.0",
     "react-i18next": "^11.18.1",
     "react-icons": "^4.4.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "three": "^0.145.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

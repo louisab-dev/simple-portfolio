@@ -1,12 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { PlanetViewer } from "../PlanetViewer";
 
 function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex items-center justify-center py-28 gap-3 flex-col md:flex-row md:gap-10">
+    <div className="flex items-center justify-center pt-28 gap-3 flex-col md:flex-row md:gap-14">
       <img src="/pfp.png" alt="Profile" className="rounded-full w-64 h-64" />
       <div className="flex items-center justify-center flex-col">
         <div className="text-center">
@@ -35,6 +36,9 @@ function HeroSection() {
             </a>
           </div>
         </div>
+      </div>
+      <div className="h-[300px]">
+        <PlanetViewer scale="40" modelPath={"/public/planet.glb"} />
       </div>
     </div>
   );
