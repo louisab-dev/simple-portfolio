@@ -38,7 +38,7 @@ function HeroSection() {
         </div>
       </div>
       <div className="h-[300px]">
-        <PlanetViewer scale="40" modelPath={"/public/planet.glb"} />
+        <PlanetViewer scale="40" modelPath={"/planet.glb"} />
       </div>
     </div>
   );
