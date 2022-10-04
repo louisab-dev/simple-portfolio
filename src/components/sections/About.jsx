@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="py-12">
       <SectionTitle>{t("about.title")}</SectionTitle>
-      <div className="text-gray-700 dark:text-gray-300">
+      <div className="text-gray-700 dark:text-gray-300 mx-5">
         <p>{t("about.description")}</p>
       </div>
     </div>
